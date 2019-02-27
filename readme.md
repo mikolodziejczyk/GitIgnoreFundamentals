@@ -1,6 +1,17 @@
 e:\VisualStudio\Learn\Git\GitIgnoreFundamentals\
 https://github.com/mikolodziejczyk/GitIgnoreFundamentals
-Unzip GitIgnoreFundamentalsContents.zip to add the file for the practice.
+
+First remove the existing e:\VisualStudio\Learn\Git\GitIgnoreFundamentals\
+Then start a command line and clone the existing repository:
+cd e:\VisualStudio\Learn\Git
+git clone https://github.com/mikolodziejczyk/GitIgnoreFundamentals.git
+
+Unzip 
+e:\VisualStudio\Learn\Git\GitIgnoreFundamentals\GitIgnoreFundamentalsContents.zip
+to the current folder, that is: e:\VisualStudio\Learn\Git\GitIgnoreFundamentals
+This adds the files for the practice.
+
+Once you complete you can remove the folder altogether.
 
 1. Can you have .gitignore in subfolders?
 2. Blank lines in .gitignore. How are they interpreted?
